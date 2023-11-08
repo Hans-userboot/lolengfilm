@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "13260562"))
 API_HASH = os.environ.get("API_HASH", "bdc3c6a7790d44b6a346a5cdac79c56f")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001665382679"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001846800430"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "BriGadeVoLeoN")
@@ -39,7 +39,7 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://wyrgpmvx:Mz_kmUectZGGndrCnxOJvOp-HNGcbgNm@satao.db.elephantsql.com/wyrgpmvx")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002035713453"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001949571202"))
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
